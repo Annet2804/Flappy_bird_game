@@ -1,0 +1,32 @@
+<!doctype HTML5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlappyBird</title>
+    <link rel="stylesheet" href="fb.css">
+</head>
+<body>
+<div class="game_elements">
+    <div class="boot_game">
+        <canvas id="canvas" class="game_canvas" width="288" height="512"></canvas>
+    </div>
+
+    <div class="character_select_but">
+        <div class="character_select">
+            <div class="character" data-character="boot">
+                <img src="img_game/boot.png" alt="Boot">
+            </div>
+            <div class="character" data-character="bird">
+                <img src="img_game/bird.png" alt="Bird">
+            </div>
+        </div>
+
+        <button id="game_relode_but" class="game_relode_but" type="button">Переграти</button>
+    </div>
+    <span id="score_of_fb"></span>
+</div>
+<script src="JS/FB.js"></script>
+</body>
+</html>

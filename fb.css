@@ -1,0 +1,95 @@
+.game_elements{
+  width: 800px;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px;
+
+  /* background: url("https://media.istockphoto.com/vectors/pixel-art-style-noise-seamless-vector-background-colorful-vector-id530769666"); */
+  background: url("https://pbs.twimg.com/media/EZ783JZXQAYMXI2.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.boot_game{
+  width: 288px;
+  height: 512px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.game_canvas{
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.game_relode_but{
+
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  align-items: center;
+}
+.game_relode_but:hover{
+  background-color: green;
+  color: white;
+}
+
+.character_select {
+  display: flex;
+  gap: 10px;
+
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+.character_select_but{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.character {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border 0.3s;
+}
+
+.character img {
+  width: 40px;
+  height: 40px;
+}
+
+.character.selected {
+  background-color: #cccccc;
+  border-color: #03324a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
