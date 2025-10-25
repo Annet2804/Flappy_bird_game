@@ -62,7 +62,7 @@ document.addEventListener("keydown", function(e) {
 });
 
 
-//скидаємо налаштування
+//скидаєм налаштування
 function resetGame() {
     cancelAnimationFrame(animationId); //зупинка анімації
     xb = 10;
